@@ -1,3 +1,2 @@
 
-let a = 'Hello, world!';
-document.writeln(a);
+console.log('Hello, world!');
