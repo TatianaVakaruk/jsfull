@@ -7,7 +7,7 @@ it("should 18 never be 17", () => {
 const getEvenNumbers = (numbers) => {
   return numbers.filter((num) => {
     return num % 2 === 0;
-});
+  });
 };
 it("should be return only even numbers", () => {
   const result = getEvenNumbers([1, 2, 3, 4]);
